@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+
+}
+
+@font-face {
+    font-family: fontsTopo;
+    src: url(Fonts/FugazOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: fontsCarrossel;
+    src: url(Fonts/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: fontsText;
+    src: url(Fonts/Pacifico-Regular.ttf);
+}
+
+body {
+    background-color: grey;
+}
+
+#topo {
+
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(65, 65, 80, 1) 35%, rgba(255, 255, 255, 1) 100%);
+    background-size: 100% 100%;
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.navbar {}
+
+.container-fluid {
+
+    font-family: fontsTopo;
+    font-size: 1.4em;
+
+}
+
+.navbar-brand {}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+
+}
+
+.nav-link:hover {
+    background-color: black;
+    border-radius: 50px;
+}
+
+@media screen and (max-width:1000px) {
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        color: black;
+        text-decoration: none;
+    }
+}
+
+#container-text {
+    background-color: blue;
+}
+
+.row {
+    background-color: blue;
+}
+
+
+#carouselExampleCaptions {
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.img-carousel {
+    font-family: fontsCarrossel;
+    color: red;
+}
+
+.text-carousel {
+    font-family: fontsCarrossel;
+    color: red;
+
+}
+
+#card-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(65, 65, 80, 1) 35%, rgba(255, 255, 255, 1) 100%);
+
+}
+
+.card {
+    width: 20%;
+    height: 70%;
+    border: 5px solid black;
+}
+
+.img-card {
+    width: 100%;
+    height: 70%;
+
+}
+
+.text-card {
+    width: 100%;
+    height: 30%;
+    background-color: grey;
+
+
+
+}
+
+.titulo-card {
+    font-family: fontsTopo;
+    font-size: 1.5em;
+    text-align: center;
+
+
+
+}
+
+.p-card {
+    font-family: fontsTopo;
+    font-size: 1.0em;
+    text-align: center;
+
+}
+
+#secao3 {
+    height: 60vh;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(65, 65, 80, 1) 35%, rgba(255, 255, 255, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: fontsText;
+}
+
+#text-secao3 {
+    color: red;
+    width: 40%;
+    margin-left: 10%;
+    height: 60%
+}
+
+#img-secao3 {
+    margin-right: 5%;
+
+
+
+}
+
+#text-secao3>h1 {
+    font-size: 3em;
+    padding-top: 10%;
+}
+
+#text-secao3>h2 {
+    padding-top: 5%;
+}
+
+#text-secao3>p {
+    padding-top: 3.2%;
+}
+
+hr {
+    border: 1px solid #020202;
+}
